@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<title>Crystal Collector Game!</title>
+	
+	<link rel="stylesheet" type="text/css" href="assets/reset.css">
+	
+	<link rel="stylesheet" type="text/css" href="assets/style.css">
+
+	<!-- <scrip type="text/javascript" src="assets/javascript/game.js"></scrip> -->
+
+</head>
+
+<body>
+
+<div class="header">
+	<h1>CrystalCollector!</h1>
+</div><!--header end-->
+
+<div class="mainsection">
+	<p>You will be given a random number at the start of the game.</p>
+	
+	<p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
+	
+	<p>You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.</p>
+	
+	<p>The value of each crystal is hidden from you until you click on it.</p>
+	
+	<p>Each time when the game starts, the game will change the values of each crystal.</p>
+
+	<br>
+</div><!--mainsection end-->
+
+<br>
+
+<div class="container">
+	 
+	<div class="random">
+		<h1>0</h1>
+	</div><!--random-->
+
+	<br>
+
+	<div class="score">
+		<h4>Wins: 0</h4>
+		<h4>Losses: 0</h4>
+	</div><!--score end-->	
+
+
+	<div id="crystals">
+		
+		<img class="crystal-image" src="http://cdn.playbuzz.com/cdn/35910209-2844-45c0-b099-f4d82878d54f/00261fda-4062-4096-81fd-8cf96b9034e8.jpg" ></img>
+
+		<img class="crystal-image" src="http://cdn.playbuzz.com/cdn/35910209-2844-45c0-b099-f4d82878d54f/00261fda-4062-4096-81fd-8cf96b9034e8.jpg" ></img>
+
+		<img class="crystal-image" src="http://cdn.playbuzz.com/cdn/35910209-2844-45c0-b099-f4d82878d54f/00261fda-4062-4096-81fd-8cf96b9034e8.jpg" ></img>
+
+		<img class="crystal-image" src="http://cdn.playbuzz.com/cdn/35910209-2844-45c0-b099-f4d82878d54f/00261fda-4062-4096-81fd-8cf96b9034e8.jpg" ></img>
+
+	</div><!--crystal end-->
+	
+</div><!--container-->
+
+<div class="sidebar">
+	<p>Your total score is:</p>
+</div><!--sidebar end-->
+
+
+<div class="footer">
+	<h1>0</h1>
+</div><!--footer end-->
+
+<script type="text/javascript">
+
+var targetNumber = "";
+
+
+// $("#number-to-guess").text(targetNumber);
+// console.log(number-to-guess);
+
+var counter = 0;
+
+var numberOptions = [1,2,3,4,5,6,7,8,9,10,11,12];
+console.log(numberOptions)
+
+var counter = 0;
+
+for (var i = 0; i < numberOptions.length; i++){
+
+	var imageCrystal=("<img>");
+
+$("#crystal-image").append(imageCrystal);
+
+}/*for loop end*/
+
+
+
+</script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

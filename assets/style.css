@@ -1,0 +1,77 @@
+.header{
+	
+	width:250px;
+	background-color:black;
+	color:orange;
+	margin-top:0;
+}/*header*/
+.mainsection{
+	background-color:black;
+	color:orange;
+	width:430px;
+	height:300px;
+	
+}/*mainsection*/
+
+.random{
+	background-color:black;
+	color:orange;
+	height:100px;
+	width:180px;
+	
+}/*random end*/
+
+.score{
+	background-color:black;
+	color:orange;
+	height:100px;
+	width:90px;
+	padding-top:5px;
+	
+	
+	
+}/*score end*/
+ 
+.sidebar{
+	background-color:black;
+	color:orange;
+	width:200px;
+	height:25px;
+	
+}/*sidebar end*/
+
+
+
+img{
+	height:90px;
+	width:90px;
+	
+}/*crystal*/
+
+.footer{
+	background-color:black;
+	color:orange;
+	width:200px;
+	height:100px;
+	
+}/*footer end*/
+
+.container{
+	width:400px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
