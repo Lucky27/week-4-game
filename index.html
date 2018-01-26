@@ -1,5 +1,7 @@
 <!DOCTYPE html>
+
 <html>
+
 <head>
 	
 	<title>Crystal Collector Game!</title>
@@ -7,6 +9,7 @@
 	<link rel="stylesheet" type="text/css" href="assets/reset.css">
 	
 	<link rel="stylesheet" type="text/css" href="assets/style.css">
+	
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
 	<script type="text/javascript" src="assets/javascript/game.js"></script>
@@ -16,21 +19,34 @@
 <body>
 
 <div class="header">
+	
 	<h1>Motorcycle Collector</h1>
+
 </div><!--header end-->
+
 <br>
+
 <div class="mainsection">
 	<p>You will be given a random number at the start of the game.</p>
+	
 	<br>
+	
 	<p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
+	
 	<br><br>
+	
 	<p>You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.</p>
+	
 	<br>
+	
 	<p>The value of each crystal is hidden from you until you click on it.</p>
+	
 	<br>
+	
 	<p>Each time when the game starts, the game will change the values of each crystal.</p>
 
 	<br>
+
 </div><!--mainsection end-->
 
 <br>
@@ -38,14 +54,19 @@
 <div class="container">
 	 
 	<div class="random">
+		
 		<h1 id="computer">0</h1>
+	
 	</div><!--random-->
 
 	<br>
 
 	<div class="score">
-		<h4>Wins: 0</h4>
-		<h4>Losses: 0</h4>
+		
+		<h4 id="win">Wins: 0</h4>
+		
+		<h4 id="lose">Losses: 0</h4>
+	
 	</div><!--score end-->	
 
 <br>
@@ -65,12 +86,16 @@
 </div><!--container-->
 
 <div class="sidebar">
+	
 	<p>Your total score is:</p>
+
 </div><!--sidebar end-->
 
 
 <div class="footer">
-	<h1 id="total1"></h1>
+	
+	<h1 id="total1">0</h1>
+
 </div><!--footer end-->
 
 <!-- <script type="text/javascript">
@@ -104,8 +129,9 @@ $("#crystal-image").append(total+ numberOptions);
 
 
 </script> -->
-</body>
-</html>
+</body><!--body end-->
+
+</html><!--html end-->
 
 
 

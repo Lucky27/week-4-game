@@ -1,8 +1,8 @@
 .header{
 	
 	width:430px;
-	background-color:black;
-	color:orange;
+	background-color:lightgrey;
+	color:black;
 	margin-top:0;
 	height:50px;
 	font-size:30px;
@@ -10,24 +10,25 @@
 }/*header*/
 
 .mainsection{
-	background-color:black;
-	color:orange;
+	background-color:lightgrey;
+	color:black;
 	width:430px;
 	height:300px;
+
 	
 }/*mainsection*/
 
 .random{
-	background-color:black;
-	color:orange;
+	background-color:lightgrey;
+	color:black;
 	height:100px;
 	width:180px;
 	
 }/*random end*/
 
 .score{
-	background-color:black;
-	color:orange;
+	background-color:lightgrey;
+	color:black;
 	height:100px;
 	width:90px;
 	padding-top:5px;
@@ -37,8 +38,8 @@
 }/*score end*/
  
 .sidebar{
-	background-color:black;
-	color:orange;
+	background-color:lightgrey;
+	color:black;
 	width:200px;
 	height:25px;
 	
@@ -53,8 +54,8 @@ img{
 }/*crystal*/
 
 .footer{
-	background-color:black;
-	color:orange;
+	background-color:lightgrey;
+	color:black;
 	width:200px;
 	height:100px;
 	
