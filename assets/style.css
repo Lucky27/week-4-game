@@ -5,8 +5,10 @@
 	color:black;
 	margin-top:0;
 	height:50px;
-	font-size:30px;
+	font-size:40px;
 	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
 }/*header*/
 
 .mainsection{
@@ -14,8 +16,10 @@
 	color:black;
 	width:430px;
 	height:300px;
-
-	
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	font-weight:bold;
 }/*mainsection*/
 
 .random{
@@ -23,17 +27,23 @@
 	color:black;
 	height:100px;
 	width:180px;
-	
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+	font-size:50px;
+	padding-top:50px;
 }/*random end*/
 
 .score{
 	background-color:lightgrey;
 	color:black;
 	height:100px;
-	width:90px;
+	width:180px;
 	padding-top:5px;
-
-	
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+	font-size:30px;
 	
 }/*score end*/
  
@@ -42,14 +52,16 @@
 	color:black;
 	width:200px;
 	height:25px;
-	
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
 }/*sidebar end*/
 
 
 
 img{
-	height:70px;
-	width:70px;
+	height:90px;
+	width:94px;
 	
 }/*crystal*/
 
@@ -58,11 +70,17 @@ img{
 	color:black;
 	width:200px;
 	height:100px;
-	
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+	font-size:50px;
+	padding-top:50px;
 }/*footer end*/
 
 .container{
-	width:400px;
+	width:450px;
+	margin-left:auto;
+	margin-right:auto;
 
 }
 

@@ -1,6 +1,5 @@
 
 var total=0;
-var number;
 var genNum;
 
 function targetNumber () { 
@@ -45,20 +44,20 @@ $("#four").on("click",function(){
 	$("#total1").text(total);
 });
 
-var points=0;
+var points= points + 1;
 
 function up(){
 	if(total === targetNumber){
-		points = points +1;
-		$("#win").text(points)
+		$("#win").text(points);
 
 	}
+	
 	else if(total>targetNumber){
-		lose
+		$("#lose").text(points);
 	}
-}
+}//up end
 
-
+up();
 
 
 
