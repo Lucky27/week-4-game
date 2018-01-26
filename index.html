@@ -7,26 +7,27 @@
 	<link rel="stylesheet" type="text/css" href="assets/reset.css">
 	
 	<link rel="stylesheet" type="text/css" href="assets/style.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
-	<!-- <scrip type="text/javascript" src="assets/javascript/game.js"></scrip> -->
+	<script type="text/javascript" src="assets/javascript/game.js"></script>
 
 </head>
 
 <body>
 
 <div class="header">
-	<h1>CrystalCollector!</h1>
+	<h1>Crystal Collector</h1>
 </div><!--header end-->
-
+<br>
 <div class="mainsection">
 	<p>You will be given a random number at the start of the game.</p>
-	
+	<br>
 	<p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
-	
+	<br><br>
 	<p>You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.</p>
-	
+	<br>
 	<p>The value of each crystal is hidden from you until you click on it.</p>
-	
+	<br>
 	<p>Each time when the game starts, the game will change the values of each crystal.</p>
 
 	<br>
@@ -37,7 +38,7 @@
 <div class="container">
 	 
 	<div class="random">
-		<h1>0</h1>
+		<h1 id="computer">0</h1>
 	</div><!--random-->
 
 	<br>
@@ -47,16 +48,17 @@
 		<h4>Losses: 0</h4>
 	</div><!--score end-->	
 
+<br>
 
 	<div id="crystals">
 		
-		<img class="crystal-image" src="http://cdn.playbuzz.com/cdn/35910209-2844-45c0-b099-f4d82878d54f/00261fda-4062-4096-81fd-8cf96b9034e8.jpg" ></img>
+		<button class="btn btn-default"><img class="crystal-image" src="http://cdn.playbuzz.com/cdn/35910209-2844-45c0-b099-f4d82878d54f/00261fda-4062-4096-81fd-8cf96b9034e8.jpg" id="one" ></img></button>
 
-		<img class="crystal-image" src="http://cdn.playbuzz.com/cdn/35910209-2844-45c0-b099-f4d82878d54f/00261fda-4062-4096-81fd-8cf96b9034e8.jpg" ></img>
+		<button class="btn btn-default"><img class="crystal-image" src="http://cdn.playbuzz.com/cdn/35910209-2844-45c0-b099-f4d82878d54f/00261fda-4062-4096-81fd-8cf96b9034e8.jpg" id="two"></img></buttom>
 
-		<img class="crystal-image" src="http://cdn.playbuzz.com/cdn/35910209-2844-45c0-b099-f4d82878d54f/00261fda-4062-4096-81fd-8cf96b9034e8.jpg" ></img>
+		<button class="btn btn-default"><img class="crystal-image" src="http://cdn.playbuzz.com/cdn/35910209-2844-45c0-b099-f4d82878d54f/00261fda-4062-4096-81fd-8cf96b9034e8.jpg" id="three" ></img></button>
 
-		<img class="crystal-image" src="http://cdn.playbuzz.com/cdn/35910209-2844-45c0-b099-f4d82878d54f/00261fda-4062-4096-81fd-8cf96b9034e8.jpg" ></img>
+		<button class="btn btn-default"><img class="crystal-image" src="http://cdn.playbuzz.com/cdn/35910209-2844-45c0-b099-f4d82878d54f/00261fda-4062-4096-81fd-8cf96b9034e8.jpg" id="four" ></img></button>
 
 	</div><!--crystal end-->
 	
@@ -68,35 +70,40 @@
 
 
 <div class="footer">
-	<h1>0</h1>
+	<h1 id="total1"></h1>
 </div><!--footer end-->
 
-<script type="text/javascript">
+<!-- <script type="text/javascript">
 
 var targetNumber = "";
 
+function targetNumber (){ 
+	genNum = [Math.floor(Math.random()*102) +19];
+	console.log(targetNumber);
+}
+targetNumber();
 
-// $("#number-to-guess").text(targetNumber);
-// console.log(number-to-guess);
+function crystalNumber(){
+	ranNum[Math.floor(Math.random()*12)+1]
+	return ranNum;
+	console.log(ranNum);
+}
 
-var counter = 0;
+// var numberOptions = [1,2,3,4,5,6,7,8,9,10,11,12];
+// console.log(numberOptions)
 
-var numberOptions = [1,2,3,4,5,6,7,8,9,10,11,12];
-console.log(numberOptions)
-
-var counter = 0;
 
 for (var i = 0; i < numberOptions.length; i++){
 
 	var imageCrystal=("<img>");
 
-$("#crystal-image").append(imageCrystal);
+$("#crystal-image").append(total+ numberOptions);
 
 }/*for loop end*/
 
 
 
-</script>
+</script> -->
 </body>
 </html>
 
